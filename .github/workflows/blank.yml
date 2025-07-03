@@ -6,6 +6,7 @@ on:
       - main  # Cambia si usas otra rama
     paths:
       - sample_bed.txt
+      - sample_bed.txt.md5
 
 jobs:
   generate_and_push_md5:
