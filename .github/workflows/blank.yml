@@ -3,7 +3,7 @@ name: Generate and Push MD5
 on:
   push:
     branches:
-      - main  # Cambia si usas otra rama
+      - master
     paths:
       - sample_bed.txt
       - sample_bed.txt.md5
