@@ -1,0 +1,21 @@
+# This is an example of params file used to launch csvs preproc pipeline.
+# paths can be URIs or local files
+
+
+#***************************
+#***  GLOBAL PARAMETERS  ***
+#***************************
+
+# Results output folder
+output_folder: "results"
+
+# Samples and corresponding BED files.
+sample_bed_file: "sample_bed.txt"
+
+# KEY-WORD used for genomes in the sample_bed file.
+genome_sample_str: "genome"
+
+# Reference genome
+ref_genome: "/mnt/lustre/scratch/CBRA/data/indexed_genomes/bwa/hs37d5/hs37d5.fa"
+ref_genome_fai: "/mnt/lustre/scratch/CBRA/data/indexed_genomes/bwa/hs37d5/hs37d5.fa.fai"
+ref_genome_sizes: "/mnt/lustre/scratch/CBRA/data/indexed_genomes/bwa/hs37d5/sizes.hs37d5"
