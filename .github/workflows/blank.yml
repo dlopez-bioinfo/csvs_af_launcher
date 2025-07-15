@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - master
+    paths:
+      - sample_bed.txt
 
 jobs:
   generate_and_push_md5:
