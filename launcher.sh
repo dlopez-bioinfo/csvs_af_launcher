@@ -64,5 +64,8 @@ conda activate ${CONDA_ENV} || { echo "The conda environment couldn't be activat
 ########
 # MAIN #
 ########
+# update repo
+nextflow pull ${PIPELINE_REPO}
+
 # run the workflow from the github repository
 nextflow run ${PIPELINE_REPO} ${PIPELINE_VERSION} -profile singularity,slurm -params-file ${PARAMS_FILE} -dump-channels -resume $@
