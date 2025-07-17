@@ -1049,7 +1049,6 @@ genome	/mnt/lustre/scratch/CBRA/projects/CSVS/files/nagen/nagen_070420/batch1/AM
 /mnt/lustre/scratch/CBRA/data/enriched_regions/ENOD/TwistHumanCoreExomePlus/WESTWIST.nochr.bed	/mnt/lustre/scratch/CBRA/projects/CSVS/files/enod/enod_021219/batch1/0396-053-ENOD.vcf.gz	F
 /mnt/lustre/scratch/CBRA/data/enriched_regions/ENOD/xGen_V1/xgen-exome-research-panel-targets.nochr.bed	/mnt/lustre/scratch/CBRA/projects/CSVS/files/enod/enod_021219/batch1/0408-082-ENOD.vcf.gz	F
 /mnt/lustre/scratch/CBRA/data/enriched_regions/ENOD/AgilentSureSelectV4/S03723314_Covered.nochr.bed	/mnt/lustre/scratch/CBRA/projects/CSVS/files/enod/enod_021219/batch1/0386-022-ENOD.vcf.gz	F
-/mnt/lustre/scratch/CBRA/data/enriched_regions/ENOD/xGen_V1/xgen-exome-research-panel-targets.nochr.bed	/mnt/lustre/scratch/CBRA/projects/CSVS/files/enod/enod_021219/batch1/0417-049-ENOD.vcf.gz	M
 /mnt/lustre/scratch/CBRA/data/enriched_regions/ENOD/IlluminaTruSeq/truseq-exome-targeted-regions-manifest-v1-2.sorted.nochr.bed	/mnt/lustre/scratch/CBRA/projects/CSVS/files/enod/enod_021219/batch1/0383-027-ENOD_Padre.vcf.gz	M
 /mnt/lustre/scratch/CBRA/data/enriched_regions/ENOD/IlluminaTruSeq/truseq-exome-targeted-regions-manifest-v1-2.sorted.nochr.bed	/mnt/lustre/scratch/CBRA/projects/CSVS/files/enod/enod_021219/batch1/0383-027-ENOD_Madre.vcf.gz	F
 /mnt/lustre/scratch/CBRA/projects/CSVS/files/enod/bed/agilent_v6Post.nochr.bed	/mnt/lustre/scratch/CBRA/projects/CSVS/files/enod/enod_200120/batch1/0418-082-ENOD.vcf.gz	F
