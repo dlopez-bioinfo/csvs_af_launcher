@@ -4,7 +4,8 @@
 #SBATCH --mem 64G
 #SBATCH -c 4
 #SBATCH -o pipeline.log
-
+#SBATCH --mail-type=FAIL
+#SBATCH --mail-user=daniel.lopez.lopez@juntadeandalucia.es
 
 
 ###################################################
