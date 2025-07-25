@@ -69,7 +69,7 @@ conda activate ${CONDA_ENV} || { echo "The conda environment couldn't be activat
 nextflow pull ${PIPELINE_REPO}
 
 # remove all but the last run
-nextflow clean -f -before $(nextflow log|cut -f 3|tail -n 1)
+nextflow clean -f -before $(nextflow log|egrep 'OK' | cut -f 3|tail -n 1)
 
 # run the workflow from the github repository
 nextflow run ${PIPELINE_REPO} ${PIPELINE_VERSION} -profile singularity,slurm -params-file ${PARAMS_FILE} -dump-channels -resume $@
