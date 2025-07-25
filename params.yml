@@ -19,6 +19,7 @@ genome_sample_str: "genome"
 chr_names: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "X", "Y", "MT"]
 
 # Reference genome
+ref_genome_id: "hs37d5"
 ref_genome: "/mnt/lustre/scratch/CBRA/data/indexed_genomes/bwa/hs37d5/hs37d5.fa"
 ref_genome_fai: "/mnt/lustre/scratch/CBRA/data/indexed_genomes/bwa/hs37d5/hs37d5.fa.fai"
 ref_genome_sizes: "/mnt/lustre/scratch/CBRA/data/indexed_genomes/bwa/hs37d5/sizes.hs37d5"
