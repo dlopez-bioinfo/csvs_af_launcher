@@ -1,3 +1,4 @@
+genome	/file/path/vcf.gz	M
 genome	/mnt/lustre/scratch/CBRA/projects/CSVS/files/nagen/nagen_101018/batch1/AC5377.vcf.gz	F
 genome	/mnt/lustre/scratch/CBRA/projects/CSVS/files/nagen/nagen_101018/batch1/AC5379.vcf.gz	F
 genome	/mnt/lustre/scratch/CBRA/projects/CSVS/files/nagen/nagen_101018/batch1/AC5381.vcf.gz	M
